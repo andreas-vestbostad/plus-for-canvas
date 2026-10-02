@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plus for Canvas</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <main>
+    <header>
+      <img src="../icons/icon128.png" alt="" width="56" height="56">
+      <div>
+        <h1>Plus for Canvas</h1>
+        <p class="dim"><span data-i18n="opt_tagline"></span> <span id="version" class="version"></span></p>
+      </div>
+    </header>
+
+    <section aria-labelledby="featuresTitle">
+      <h2 id="featuresTitle" data-i18n="opt_modulesTitle"></h2>
+      <p class="dim" data-i18n="opt_modulesHelp"></p>
+      <div id="features" class="cards"></div>
+    </section>
+
+    <section aria-labelledby="sitesTitle">
+      <h2 id="sitesTitle" data-i18n="opt_domainsTitle"></h2>
+      <p class="dim" data-i18n="opt_sitesHelp"></p>
+      <ul id="sites" class="sites"></ul>
+      <form id="addDomain">
+        <input id="domain" autocomplete="off" spellcheck="false" aria-labelledby="sitesTitle">
+        <button type="submit" data-i18n="opt_add"></button>
+      </form>
+      <p id="domainMsg" class="msg" role="status"></p>
+    </section>
+
+    <details>
+      <summary data-i18n="opt_paletteTitle"></summary>
+      <h3 data-i18n="opt_howTitle"></h3>
+      <p id="howOpen"></p>
+      <p class="dim" data-i18n="opt_exIntro"></p>
+      <table class="examples">
+        <tr><td><code data-i18n="opt_ex1q"></code></td><td data-i18n="opt_ex1"></td></tr>
+        <tr><td><code data-i18n="opt_ex2q"></code></td><td data-i18n="opt_ex2"></td></tr>
+        <tr><td><code data-i18n="opt_ex3q"></code></td><td data-i18n="opt_ex3"></td></tr>
+        <tr><td><code data-i18n="opt_ex4q"></code></td><td data-i18n="opt_ex4"></td></tr>
+        <tr><td><code data-i18n="opt_ex5q"></code></td><td data-i18n="opt_ex5"></td></tr>
+        <tr><td><code data-i18n="opt_ex6q"></code></td><td data-i18n="opt_ex6"></td></tr>
+      </table>
+      <h3 data-i18n="opt_aliasTitle"></h3>
+      <p class="dim" data-i18n="opt_aliasHelp"></p>
+      <div id="aliases"></div>
+    </details>
+
+    <details>
+      <summary data-i18n="opt_dataTitle"></summary>
+      <p class="dim" data-i18n="opt_dataHelp"></p>
+      <p class="row">
+        <button id="clearCache" data-i18n="opt_clearCache"></button>
+        <button id="clearHistory" data-i18n="opt_clearHistory"></button>
+        <span id="dataMsg" class="msg" role="status"></span>
+      </p>
+    </details>
+  </main>
+  <script src="../src/core/registry.js"></script>
+  <script src="../src/lib/match.js"></script>
+  <script src="../src/lib/courses.js"></script>
+  <script src="../src/lib/themes.js"></script>
+  <script src="../src/lib/controls.js"></script>
+  <script src="../src/modules/deadlines/icons.js"></script>
+  <script src="ui.js"></script>
+  <script src="features.js"></script>
+  <script src="sites.js"></script>
+  <script src="palette.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

@@ -1,0 +1,659 @@
+{
+  "extName": {
+    "message": "Plus for Canvas"
+  },
+  "extDescription": {
+    "message": "Command palette, deadline overview and dark mode for Canvas LMS."
+  },
+  "actionTitle": {
+    "message": "Open the palette"
+  },
+  "placeholder": {
+    "message": "Search courses, modules, assignments…  e.g. 101 mod"
+  },
+  "footOpen": {
+    "message": "open"
+  },
+  "footNewTab": {
+    "message": "new tab"
+  },
+  "footComplete": {
+    "message": "complete"
+  },
+  "footClose": {
+    "message": "close"
+  },
+  "noResults": {
+    "message": "No matches"
+  },
+  "loading": {
+    "message": "Loading course content…"
+  },
+  "loadError": {
+    "message": "Could not reach Canvas. Are you logged in?"
+  },
+  "notCanvas": {
+    "message": "This page does not look like Canvas."
+  },
+  "hintCourse": {
+    "message": "Course"
+  },
+  "hintSection": {
+    "message": "Course page"
+  },
+  "hintThisCourse": {
+    "message": "This course"
+  },
+  "hintGlobal": {
+    "message": "Canvas"
+  },
+  "hintRecent": {
+    "message": "Recent"
+  },
+  "hintCommand": {
+    "message": "Command"
+  },
+  "kind_module": {
+    "message": "Module"
+  },
+  "kind_page": {
+    "message": "Page"
+  },
+  "kind_assignment": {
+    "message": "Assignment"
+  },
+  "kind_file": {
+    "message": "File"
+  },
+  "kind_link": {
+    "message": "Link"
+  },
+  "kind_discussion": {
+    "message": "Discussion"
+  },
+  "kind_announcement": {
+    "message": "Announcement"
+  },
+  "kind_quiz": {
+    "message": "Quiz"
+  },
+  "kind_tool": {
+    "message": "Tool"
+  },
+  "sec_home": {
+    "message": "Home"
+  },
+  "sec_modules": {
+    "message": "Modules"
+  },
+  "sec_assignments": {
+    "message": "Assignments"
+  },
+  "sec_announcements": {
+    "message": "Announcements"
+  },
+  "sec_files": {
+    "message": "Files"
+  },
+  "sec_pages": {
+    "message": "Pages"
+  },
+  "sec_discussions": {
+    "message": "Discussions"
+  },
+  "sec_grades": {
+    "message": "Grades"
+  },
+  "sec_syllabus": {
+    "message": "Syllabus"
+  },
+  "sec_quizzes": {
+    "message": "Quizzes"
+  },
+  "sec_people": {
+    "message": "People"
+  },
+  "sec_groups": {
+    "message": "Groups"
+  },
+  "sec_outcomes": {
+    "message": "Outcomes"
+  },
+  "sec_collaborations": {
+    "message": "Collaborations"
+  },
+  "sec_conferences": {
+    "message": "Conferences"
+  },
+  "sec_calendar": {
+    "message": "Calendar"
+  },
+  "g_dashboard": {
+    "message": "Dashboard"
+  },
+  "g_calendar": {
+    "message": "Calendar"
+  },
+  "g_inbox": {
+    "message": "Inbox"
+  },
+  "g_todo": {
+    "message": "To do"
+  },
+  "g_grades": {
+    "message": "All grades"
+  },
+  "g_courses": {
+    "message": "All courses"
+  },
+  "g_files": {
+    "message": "My files"
+  },
+  "g_settings": {
+    "message": "Account settings"
+  },
+  "g_notifications": {
+    "message": "Notification settings"
+  },
+  "cmd_refresh": {
+    "message": "Refresh course data"
+  },
+  "cmd_options": {
+    "message": "Plus settings"
+  },
+  "opt_title": {
+    "message": "Plus settings"
+  },
+  "opt_tagline": {
+    "message": "Small upgrades for Canvas."
+  },
+  "opt_howTitle": {
+    "message": "How to use it"
+  },
+  "opt_howOpen": {
+    "message": "Open the palette on any Canvas page with $1 or Alt+Space. The toolbar button and $2 work too."
+  },
+  "opt_howShortcut": {
+    "message": "Change shortcut"
+  },
+  "opt_exIntro": {
+    "message": "A few examples. The numbers stand for your course number, and you only need to type the start of a word."
+  },
+  "opt_ex1q": {
+    "message": "101"
+  },
+  "opt_ex1": {
+    "message": "front page of course 101"
+  },
+  "opt_ex2q": {
+    "message": "101 mod"
+  },
+  "opt_ex2": {
+    "message": "modules in course 101"
+  },
+  "opt_ex3q": {
+    "message": "210 ann"
+  },
+  "opt_ex3": {
+    "message": "announcements in course 210"
+  },
+  "opt_ex4q": {
+    "message": "101 hw2"
+  },
+  "opt_ex4": {
+    "message": "search for “hw2” in modules, pages and assignments of course 101"
+  },
+  "opt_ex5q": {
+    "message": "mod"
+  },
+  "opt_ex5": {
+    "message": "modules in the course you are in"
+  },
+  "opt_ex6q": {
+    "message": "inbox"
+  },
+  "opt_ex6": {
+    "message": "inbox and other pages outside your courses"
+  },
+  "opt_domainsTitle": {
+    "message": "Canvas sites"
+  },
+  "opt_domainPlaceholder": {
+    "message": "canvas.myschool.edu"
+  },
+  "opt_add": {
+    "message": "Add"
+  },
+  "opt_remove": {
+    "message": "Remove"
+  },
+  "opt_domainInvalid": {
+    "message": "That does not look like a domain name."
+  },
+  "opt_domainDenied": {
+    "message": "Permission was not granted."
+  },
+  "opt_domainAdded": {
+    "message": "Added. Reload your Canvas tab."
+  },
+  "opt_aliasTitle": {
+    "message": "Course aliases"
+  },
+  "opt_aliasHelp": {
+    "message": "Courses are found automatically, and each one already answers to its code and number (BIO101, 101). Add your own nicknames, separated by commas."
+  },
+  "opt_aliasEmpty": {
+    "message": "No courses yet. Open the palette once on your Canvas site and they will show up here."
+  },
+  "opt_saved": {
+    "message": "Saved"
+  },
+  "opt_saveError": {
+    "message": "Could not save. The list may be too long."
+  },
+  "opt_dataTitle": {
+    "message": "Data"
+  },
+  "opt_dataHelp": {
+    "message": "Everything stays in your browser. Plus for Canvas only talks to the Canvas site you are on, with your own login."
+  },
+  "opt_clearCache": {
+    "message": "Clear cached courses and content"
+  },
+  "opt_clearHistory": {
+    "message": "Clear recent history"
+  },
+  "opt_cleared": {
+    "message": "Cleared"
+  },
+  "opt_modulesTitle": {
+    "message": "Features"
+  },
+  "mod_jump": {
+    "message": "Command palette"
+  },
+  "mod_jump_desc": {
+    "message": "Press ⌘K / Ctrl+K to jump to any course, page or assignment."
+  },
+  "mod_jump_short": {
+    "message": "⌘K / Ctrl+K to jump to courses, pages and assignments."
+  },
+  "mod_dark": {
+    "message": "Dark mode"
+  },
+  "mod_dark_desc": {
+    "message": "A dark theme for all of Canvas. Images, videos and course colours keep their look. Switch it from Canvas' menu, or type “dark” in the palette."
+  },
+  "mod_dark_short": {
+    "message": "A dark theme for all of Canvas."
+  },
+  "mod_dark_auto": {
+    "message": "Follow the system"
+  },
+  "mod_dark_on": {
+    "message": "Always dark"
+  },
+  "mod_calendar": {
+    "message": "Calendar month view"
+  },
+  "mod_calendar_desc": {
+    "message": "Redraws the small month in the calendar's sidebar: flat days, today in a circle and a dot on days with events. In light and dark mode."
+  },
+  "mod_calendar_short": {
+    "message": "A cleaner mini calendar in the calendar's sidebar."
+  },
+  "mod_deadlines": {
+    "message": "Deadline overview"
+  },
+  "mod_deadlines_desc": {
+    "message": "A Deadlines item in Canvas' menu, with a count, opens your next deadlines from all courses, without lectures and announcements. Type “due” in the palette to see them too."
+  },
+  "mod_deadlines_short": {
+    "message": "Deadlines in the menu with your next deadlines from all courses."
+  },
+  "dl_title": {
+    "message": "Upcoming deadlines"
+  },
+  "dl_left": {
+    "message": "$1 left"
+  },
+  "dl_loading": {
+    "message": "Loading deadlines…"
+  },
+  "dl_empty": {
+    "message": "Nothing left to hand in."
+  },
+  "dl_error": {
+    "message": "Could not load deadlines. Try reloading the page."
+  },
+  "dl_missing": {
+    "message": "missing"
+  },
+  "dl_overdue": {
+    "message": "past due"
+  },
+  "dl_submitted": {
+    "message": "handed in"
+  },
+  "dl_graded": {
+    "message": "graded"
+  },
+  "dl_excused": {
+    "message": "excused"
+  },
+  "dl_done": {
+    "message": "marked done"
+  },
+  "dl_nav": {
+    "message": "Deadlines"
+  },
+  "dl_close": {
+    "message": "Close"
+  },
+  "dl_recent": {
+    "message": "Recently handed in"
+  },
+  "dl_recentGraded": {
+    "message": "Recently graded"
+  },
+  "dl_feedback": {
+    "message": "new comment"
+  },
+  "dl_archive": {
+    "message": "Archive"
+  },
+  "dl_archiveAsk": {
+    "message": "Archive this deadline?"
+  },
+  "dl_cancel": {
+    "message": "Cancel"
+  },
+  "dl_restore": {
+    "message": "Restore"
+  },
+  "dl_archived": {
+    "message": "Archived ($1)"
+  },
+  "dl_archivedOne": {
+    "message": "Archived $1"
+  },
+  "dl_restoredOne": {
+    "message": "Restored $1"
+  },
+  "cmd_dark": {
+    "message": "Toggle dark mode"
+  },
+  "opt_version": {
+    "message": "Version $1"
+  },
+  "opt_sitesHelp": {
+    "message": "Plus for Canvas runs on these sites. Remove the ones you do not use, or add your school's Canvas domain."
+  },
+  "opt_builtIn": {
+    "message": "Built in"
+  },
+  "opt_permMissing": {
+    "message": "Permission missing. Remove the site and add it again."
+  },
+  "opt_paletteTitle": {
+    "message": "Command palette help and course nicknames"
+  },
+  "mod_dark_off": {
+    "message": "Always light"
+  },
+  "mod_theme": {
+    "message": "Colour theme"
+  },
+  "mod_theme_desc": {
+    "message": "Pick the accent colour for Canvas and Plus: menu, links, buttons and the palette. Choose a ready-made theme, rainbow or your own colour. Works with dark mode too."
+  },
+  "mod_theme_short": {
+    "message": "Accent colour for Canvas and Plus."
+  },
+  "mod_theme_canvas": {
+    "message": "Canvas (default)"
+  },
+  "mod_theme_blue": {
+    "message": "Blue"
+  },
+  "mod_theme_green": {
+    "message": "Green"
+  },
+  "mod_theme_purple": {
+    "message": "Purple"
+  },
+  "mod_theme_rainbow": {
+    "message": "Rainbow"
+  },
+  "mod_theme_custom": {
+    "message": "Your own colour"
+  },
+  "mod_theme_color": {
+    "message": "Pick a colour"
+  },
+  "dark_nav": {
+    "message": "Dark mode"
+  },
+  "dark_toDark": {
+    "message": "Switch to dark"
+  },
+  "dark_toLight": {
+    "message": "Switch to light"
+  },
+  "opt_modulesHelp": {
+    "message": "Turn features on or off. Changes apply to open Canvas tabs right away."
+  },
+  "set_title": {
+    "message": "Plus"
+  },
+  "set_sub": {
+    "message": "Turn features on or off. Changes apply right away."
+  },
+  "set_all": {
+    "message": "All settings"
+  },
+  "opt_removed": {
+    "message": "Removed"
+  },
+  "opt_addBack": {
+    "message": "Add back"
+  },
+  "dash_noDeadline": {
+    "message": "No deadlines ahead"
+  },
+  "dash_resume": {
+    "message": "Continue:"
+  },
+  "dash_score": {
+    "message": "Score so far"
+  },
+  "home_scoreHelp": {
+    "message": "Canvas' total score for the work graded in this course so far"
+  },
+  "mod_home": {
+    "message": "Home+"
+  },
+  "mod_home_desc": {
+    "message": "An overview page of its own inside Canvas (Home+ in the menu): what is late, deadlines for the next two weeks day by day, what was recently graded and your courses with their next deadline, score and Continue."
+  },
+  "mod_home_short": {
+    "message": "An overview page with deadlines, grades and courses."
+  },
+  "home_nav": {
+    "message": "Home+"
+  },
+  "home_title": {
+    "message": "Overview"
+  },
+  "home_upcoming": {
+    "message": "Deadlines"
+  },
+  "home_late": {
+    "message": "Late"
+  },
+  "home_courses": {
+    "message": "Courses"
+  },
+  "home_loading": {
+    "message": "Loading …"
+  },
+  "home_empty": {
+    "message": "No deadlines in the next two weeks."
+  },
+  "home_noCourses": {
+    "message": "No active courses found."
+  },
+  "home_later": {
+    "message": "+ $1 later – see Deadlines"
+  },
+  "home_newGrades": {
+    "message": "New grades"
+  },
+  "home_statLate": {
+    "message": "late"
+  },
+  "home_statWeek": {
+    "message": "due this week"
+  },
+  "home_statGrades": {
+    "message": "new grades"
+  },
+  "home_today": {
+    "message": "Today's lectures"
+  },
+  "home_now": {
+    "message": "Now"
+  },
+  "home_allDay": {
+    "message": "All day"
+  },
+  "g_home": {
+    "message": "Home+"
+  },
+  "cmd_tray": {
+    "message": "Plus settings and menu"
+  },
+  "cmd_navreset": {
+    "message": "Show all menu items"
+  },
+  "nav_title": {
+    "message": "Customize the menu"
+  },
+  "nav_sub": {
+    "message": "Hide items you do not use, and drag or use the arrows to reorder. Applies to every Canvas tab."
+  },
+  "nav_up": {
+    "message": "Move $1 up"
+  },
+  "nav_down": {
+    "message": "Move $1 down"
+  },
+  "nav_show": {
+    "message": "Show $1 in the menu"
+  },
+  "nav_locked": {
+    "message": "Account cannot be hidden"
+  },
+  "nav_reset": {
+    "message": "Reset the menu"
+  },
+  "nav_hideAnyway": {
+    "message": "Hide anyway"
+  },
+  "nav_cancel": {
+    "message": "Cancel"
+  },
+  "nav_hideWarning": {
+    "message": "Plus will disappear from the menu. You can get its settings back with $1 → \"menu\" in the palette."
+  },
+  "acct_cjSettings": {
+    "message": "Plus"
+  },
+  "home_unread": {
+    "message": "$1 unread"
+  },
+  "home_handedIn": {
+    "message": "Handed in"
+  },
+  "mod_sidebar": {
+    "message": "Course sidebar"
+  },
+  "mod_sidebar_desc": {
+    "message": "Makes Canvas' menu a wide sidebar with the names beside the icons and your courses below. Open a course there to see its own menu: Modules, Assignments, Files and so on. Canvas' button at the bottom of the menu still shrinks it to icons."
+  },
+  "mod_sidebar_short": {
+    "message": "A wide menu with names and your courses."
+  },
+  "sidebar_expand": {
+    "message": "Show the menu for $1"
+  },
+  "sidebar_error": {
+    "message": "Could not load."
+  },
+  "home_dueCount": {
+    "message": "$1 due"
+  },
+  "home_doneCount": {
+    "message": "$1 handed in"
+  },
+  "home_hide": {
+    "message": "Hide $1 from Home+"
+  },
+  "home_hiddenCount": {
+    "message": "Hidden courses: $1"
+  },
+  "home_show": {
+    "message": "Show"
+  },
+  "home_showLess": {
+    "message": "Hide list"
+  },
+  "home_unhide": {
+    "message": "Show $1 on Home+ again"
+  },
+  "home_noMoreToday": {
+    "message": "No more lectures today."
+  },
+  "home_noneToday": {
+    "message": "No lectures today."
+  },
+  "sidebar_pages": {
+    "message": "Pages"
+  },
+  "sidebar_customise": {
+    "message": "Customise the menu in Plus"
+  },
+  "sidebar_allCourses": {
+    "message": "All courses"
+  },
+  "home_move": {
+    "message": "Move $1"
+  },
+  "home_moveHint": {
+    "message": "drag, or use the arrow keys"
+  },
+  "home_resetOrder": {
+    "message": "Reset the order"
+  },
+  "home_hideAsk": {
+    "message": "Hide $1 from Home+?"
+  },
+  "home_hideHint": {
+    "message": "You can bring it back below the cards."
+  },
+  "home_hideYes": {
+    "message": "Hide"
+  },
+  "sidebar_edit": {
+    "message": "Customise"
+  },
+  "sidebar_editHidden": {
+    "message": "Customise ($1 hidden)"
+  },
+  "sidebar_pickCourses": {
+    "message": "Choose courses"
+  },
+  "sidebar_done": {
+    "message": "Done"
+  }
+}

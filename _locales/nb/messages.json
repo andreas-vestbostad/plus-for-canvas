@@ -1,0 +1,659 @@
+{
+  "extName": {
+    "message": "Plus for Canvas"
+  },
+  "extDescription": {
+    "message": "Hurtigsøk, fristoversikt og mørk modus for Canvas LMS."
+  },
+  "actionTitle": {
+    "message": "Åpne hurtigsøket"
+  },
+  "placeholder": {
+    "message": "Søk etter fag, moduler, oppgaver …  f.eks. 101 mod"
+  },
+  "footOpen": {
+    "message": "åpne"
+  },
+  "footNewTab": {
+    "message": "ny fane"
+  },
+  "footComplete": {
+    "message": "fullfør"
+  },
+  "footClose": {
+    "message": "lukk"
+  },
+  "noResults": {
+    "message": "Ingen treff"
+  },
+  "loading": {
+    "message": "Henter innhold fra fagene …"
+  },
+  "loadError": {
+    "message": "Fikk ikke kontakt med Canvas. Er du logget inn?"
+  },
+  "notCanvas": {
+    "message": "Denne siden ser ikke ut som Canvas."
+  },
+  "hintCourse": {
+    "message": "Fag"
+  },
+  "hintSection": {
+    "message": "Side i faget"
+  },
+  "hintThisCourse": {
+    "message": "Dette faget"
+  },
+  "hintGlobal": {
+    "message": "Canvas"
+  },
+  "hintRecent": {
+    "message": "Nylig"
+  },
+  "hintCommand": {
+    "message": "Kommando"
+  },
+  "kind_module": {
+    "message": "Modul"
+  },
+  "kind_page": {
+    "message": "Side"
+  },
+  "kind_assignment": {
+    "message": "Oppgave"
+  },
+  "kind_file": {
+    "message": "Fil"
+  },
+  "kind_link": {
+    "message": "Lenke"
+  },
+  "kind_discussion": {
+    "message": "Diskusjon"
+  },
+  "kind_announcement": {
+    "message": "Kunngjøring"
+  },
+  "kind_quiz": {
+    "message": "Quiz"
+  },
+  "kind_tool": {
+    "message": "Verktøy"
+  },
+  "sec_home": {
+    "message": "Forside"
+  },
+  "sec_modules": {
+    "message": "Moduler"
+  },
+  "sec_assignments": {
+    "message": "Oppgaver"
+  },
+  "sec_announcements": {
+    "message": "Kunngjøringer"
+  },
+  "sec_files": {
+    "message": "Filer"
+  },
+  "sec_pages": {
+    "message": "Sider"
+  },
+  "sec_discussions": {
+    "message": "Diskusjoner"
+  },
+  "sec_grades": {
+    "message": "Karakterer"
+  },
+  "sec_syllabus": {
+    "message": "Emneoversikt"
+  },
+  "sec_quizzes": {
+    "message": "Quizer"
+  },
+  "sec_people": {
+    "message": "Deltakere"
+  },
+  "sec_groups": {
+    "message": "Grupper"
+  },
+  "sec_outcomes": {
+    "message": "Læringsmål"
+  },
+  "sec_collaborations": {
+    "message": "Samarbeid"
+  },
+  "sec_conferences": {
+    "message": "Konferanser"
+  },
+  "sec_calendar": {
+    "message": "Kalender"
+  },
+  "g_dashboard": {
+    "message": "Dashbord"
+  },
+  "g_calendar": {
+    "message": "Kalender"
+  },
+  "g_inbox": {
+    "message": "Innboks"
+  },
+  "g_todo": {
+    "message": "Gjøremål"
+  },
+  "g_grades": {
+    "message": "Alle karakterer"
+  },
+  "g_courses": {
+    "message": "Alle emner"
+  },
+  "g_files": {
+    "message": "Mine filer"
+  },
+  "g_settings": {
+    "message": "Kontoinnstillinger"
+  },
+  "g_notifications": {
+    "message": "Varslingsinnstillinger"
+  },
+  "cmd_refresh": {
+    "message": "Oppdater fagdata"
+  },
+  "cmd_options": {
+    "message": "Innstillinger for Plus"
+  },
+  "opt_title": {
+    "message": "Innstillinger for Plus"
+  },
+  "opt_tagline": {
+    "message": "Små forbedringer for Canvas."
+  },
+  "opt_howTitle": {
+    "message": "Slik bruker du den"
+  },
+  "opt_howOpen": {
+    "message": "Åpne paletten på en Canvas side med $1 eller Alt+Mellomrom. Knappen i verktøylinja og $2 virker også."
+  },
+  "opt_howShortcut": {
+    "message": "Endre snarvei"
+  },
+  "opt_exIntro": {
+    "message": "Noen eksempler. Tallene står for fagnummeret ditt, og du trenger bare å skrive starten av et ord."
+  },
+  "opt_ex1q": {
+    "message": "101"
+  },
+  "opt_ex1": {
+    "message": "forsiden til faget 101"
+  },
+  "opt_ex2q": {
+    "message": "101 mod"
+  },
+  "opt_ex2": {
+    "message": "modulene i faget 101"
+  },
+  "opt_ex3q": {
+    "message": "210 kunn"
+  },
+  "opt_ex3": {
+    "message": "kunngjøringene i faget 210"
+  },
+  "opt_ex4q": {
+    "message": "101 oblig 2"
+  },
+  "opt_ex4": {
+    "message": "søk etter «oblig 2» i moduler, sider og oppgaver i faget 101"
+  },
+  "opt_ex5q": {
+    "message": "mod"
+  },
+  "opt_ex5": {
+    "message": "modulene i faget du står i nå"
+  },
+  "opt_ex6q": {
+    "message": "innb"
+  },
+  "opt_ex6": {
+    "message": "innboksen og andre sider utenfor fagene"
+  },
+  "opt_domainsTitle": {
+    "message": "Canvas-sider"
+  },
+  "opt_domainPlaceholder": {
+    "message": "canvas.minskole.no"
+  },
+  "opt_add": {
+    "message": "Legg til"
+  },
+  "opt_remove": {
+    "message": "Fjern"
+  },
+  "opt_domainInvalid": {
+    "message": "Det ser ikke ut som et domenenavn."
+  },
+  "opt_domainDenied": {
+    "message": "Tilgang ble ikke gitt."
+  },
+  "opt_domainAdded": {
+    "message": "Lagt til. Last inn Canvas fanen på nytt."
+  },
+  "opt_aliasTitle": {
+    "message": "Fagalias"
+  },
+  "opt_aliasHelp": {
+    "message": "Fagene hentes automatisk, og hvert fag svarer allerede på koden og nummeret (BIO101, 101). Legg til egne kallenavn, skilt med komma."
+  },
+  "opt_aliasEmpty": {
+    "message": "Ingen fag ennå. Åpne paletten én gang på Canvas siden din, så dukker de opp her."
+  },
+  "opt_saved": {
+    "message": "Lagret"
+  },
+  "opt_saveError": {
+    "message": "Kunne ikke lagre. Listen er kanskje for lang."
+  },
+  "opt_dataTitle": {
+    "message": "Data"
+  },
+  "opt_dataHelp": {
+    "message": "Alt blir i nettleseren din. Plus for Canvas snakker bare med Canvas siden du er på, med din egen innlogging."
+  },
+  "opt_clearCache": {
+    "message": "Tøm mellomlagrede fag og innhold"
+  },
+  "opt_clearHistory": {
+    "message": "Tøm historikk"
+  },
+  "opt_cleared": {
+    "message": "Tømt"
+  },
+  "opt_modulesTitle": {
+    "message": "Funksjoner"
+  },
+  "mod_jump": {
+    "message": "Hurtigsøk"
+  },
+  "mod_jump_desc": {
+    "message": "Trykk ⌘K / Ctrl+K for å hoppe til et fag, en side eller en oppgave."
+  },
+  "mod_jump_short": {
+    "message": "⌘K / Ctrl+K for å hoppe til fag, sider og oppgaver."
+  },
+  "mod_dark": {
+    "message": "Mørk modus"
+  },
+  "mod_dark_desc": {
+    "message": "Mørkt tema for hele Canvas. Bilder, video og emnefarger ser ut som før. Slå det av og på fra menyen i Canvas, eller skriv «mørk» i hurtigsøket."
+  },
+  "mod_dark_short": {
+    "message": "Mørkt tema for hele Canvas."
+  },
+  "mod_dark_auto": {
+    "message": "Følg systemet"
+  },
+  "mod_dark_on": {
+    "message": "Alltid mørk"
+  },
+  "mod_calendar": {
+    "message": "Kalender-månedsvisning"
+  },
+  "mod_calendar_desc": {
+    "message": "Tegner den lille månedsoversikten i kalenderens sidefelt på nytt: flate dager, i dag i en sirkel og en prikk på dager med hendelser. I lys og mørk modus."
+  },
+  "mod_calendar_short": {
+    "message": "Ryddigere minikalender i kalenderens sidefelt."
+  },
+  "mod_deadlines": {
+    "message": "Fristoversikt"
+  },
+  "mod_deadlines_desc": {
+    "message": "Et «Frister»-punkt i Canvas-menyen, med antall, viser de neste fristene fra alle fag, uten forelesninger og kunngjøringer. Skriv «frist» i hurtigsøket for å se dem der også."
+  },
+  "mod_deadlines_short": {
+    "message": "«Frister» i menyen med de neste fristene fra alle fag."
+  },
+  "dl_title": {
+    "message": "Neste frister"
+  },
+  "dl_left": {
+    "message": "$1 igjen"
+  },
+  "dl_loading": {
+    "message": "Henter frister …"
+  },
+  "dl_empty": {
+    "message": "Ingenting igjen å levere."
+  },
+  "dl_error": {
+    "message": "Kunne ikke hente fristene. Prøv å laste siden på nytt."
+  },
+  "dl_missing": {
+    "message": "mangler"
+  },
+  "dl_overdue": {
+    "message": "fristen er ute"
+  },
+  "dl_submitted": {
+    "message": "levert"
+  },
+  "dl_graded": {
+    "message": "vurdert"
+  },
+  "dl_excused": {
+    "message": "fritatt"
+  },
+  "dl_done": {
+    "message": "markert ferdig"
+  },
+  "dl_nav": {
+    "message": "Frister"
+  },
+  "dl_close": {
+    "message": "Lukk"
+  },
+  "dl_recent": {
+    "message": "Nylig levert"
+  },
+  "dl_recentGraded": {
+    "message": "Nylig vurdert"
+  },
+  "dl_feedback": {
+    "message": "ny kommentar"
+  },
+  "dl_archive": {
+    "message": "Arkiver"
+  },
+  "dl_archiveAsk": {
+    "message": "Arkivere denne fristen?"
+  },
+  "dl_cancel": {
+    "message": "Avbryt"
+  },
+  "dl_restore": {
+    "message": "Gjenopprett"
+  },
+  "dl_archived": {
+    "message": "Arkivert ($1)"
+  },
+  "dl_archivedOne": {
+    "message": "Arkiverte $1"
+  },
+  "dl_restoredOne": {
+    "message": "Gjenopprettet $1"
+  },
+  "cmd_dark": {
+    "message": "Slå mørk modus av eller på"
+  },
+  "opt_version": {
+    "message": "Versjon $1"
+  },
+  "opt_sitesHelp": {
+    "message": "Plus for Canvas virker på disse sidene. Fjern dem du ikke bruker, eller legg til skolens eget Canvas-domene."
+  },
+  "opt_builtIn": {
+    "message": "Innebygd"
+  },
+  "opt_permMissing": {
+    "message": "Mangler tillatelse. Fjern siden og legg den til på nytt."
+  },
+  "opt_paletteTitle": {
+    "message": "Hjelp til hurtigsøket og kallenavn på fag"
+  },
+  "mod_dark_off": {
+    "message": "Alltid lys"
+  },
+  "mod_theme": {
+    "message": "Fargetema"
+  },
+  "mod_theme_desc": {
+    "message": "Velg aksentfarge for Canvas og Plus: meny, lenker, knapper og hurtigsøket. Velg et ferdig tema, regnbue eller din egen farge. Fungerer også med mørk modus."
+  },
+  "mod_theme_short": {
+    "message": "Aksentfarge for Canvas og Plus."
+  },
+  "mod_theme_canvas": {
+    "message": "Canvas (standard)"
+  },
+  "mod_theme_blue": {
+    "message": "Blå"
+  },
+  "mod_theme_green": {
+    "message": "Grønn"
+  },
+  "mod_theme_purple": {
+    "message": "Lilla"
+  },
+  "mod_theme_rainbow": {
+    "message": "Regnbue"
+  },
+  "mod_theme_custom": {
+    "message": "Egen farge"
+  },
+  "mod_theme_color": {
+    "message": "Velg farge"
+  },
+  "dark_nav": {
+    "message": "Mørk modus"
+  },
+  "dark_toDark": {
+    "message": "Bytt til mørk"
+  },
+  "dark_toLight": {
+    "message": "Bytt til lys"
+  },
+  "opt_modulesHelp": {
+    "message": "Slå funksjoner av eller på. Endringer gjelder åpne Canvas-faner med en gang."
+  },
+  "set_title": {
+    "message": "Plus"
+  },
+  "set_sub": {
+    "message": "Slå funksjoner av eller på. Endringer gjelder med en gang."
+  },
+  "set_all": {
+    "message": "Alle innstillinger"
+  },
+  "opt_removed": {
+    "message": "Fjernet"
+  },
+  "opt_addBack": {
+    "message": "Legg til igjen"
+  },
+  "dash_noDeadline": {
+    "message": "Ingen frister framover"
+  },
+  "dash_resume": {
+    "message": "Fortsett:"
+  },
+  "dash_score": {
+    "message": "Poeng så langt"
+  },
+  "home_scoreHelp": {
+    "message": "Samlet score i Canvas for det som er vurdert i emnet så langt"
+  },
+  "mod_home": {
+    "message": "Hjem+"
+  },
+  "mod_home_desc": {
+    "message": "En egen oversiktsside i Canvas (Hjem+ i menyen): hva som er for sent, frister de neste to ukene dag for dag, det som nylig er vurdert og emnene dine med neste frist, score og «Fortsett»."
+  },
+  "mod_home_short": {
+    "message": "Oversiktsside med frister, vurderinger og emner."
+  },
+  "home_nav": {
+    "message": "Hjem+"
+  },
+  "home_title": {
+    "message": "Oversikt"
+  },
+  "home_upcoming": {
+    "message": "Frister"
+  },
+  "home_late": {
+    "message": "For sent"
+  },
+  "home_courses": {
+    "message": "Emner"
+  },
+  "home_loading": {
+    "message": "Henter …"
+  },
+  "home_empty": {
+    "message": "Ingen frister de neste to ukene."
+  },
+  "home_noCourses": {
+    "message": "Fant ingen aktive emner."
+  },
+  "home_later": {
+    "message": "+ $1 senere – se Frister"
+  },
+  "home_newGrades": {
+    "message": "Nye vurderinger"
+  },
+  "home_statLate": {
+    "message": "for sent"
+  },
+  "home_statWeek": {
+    "message": "frist denne uka"
+  },
+  "home_statGrades": {
+    "message": "nye vurderinger"
+  },
+  "home_today": {
+    "message": "Dagens forelesninger"
+  },
+  "home_now": {
+    "message": "Nå"
+  },
+  "home_allDay": {
+    "message": "Hele dagen"
+  },
+  "g_home": {
+    "message": "Hjem+"
+  },
+  "cmd_tray": {
+    "message": "Plus-innstillinger og meny"
+  },
+  "cmd_navreset": {
+    "message": "Vis alle menypunkter"
+  },
+  "nav_title": {
+    "message": "Tilpass menyen"
+  },
+  "nav_sub": {
+    "message": "Skjul punkter du ikke bruker, og dra eller bruk pilene for å endre rekkefølgen. Gjelder alle Canvas-faner."
+  },
+  "nav_up": {
+    "message": "Flytt $1 opp"
+  },
+  "nav_down": {
+    "message": "Flytt $1 ned"
+  },
+  "nav_show": {
+    "message": "Vis $1 i menyen"
+  },
+  "nav_locked": {
+    "message": "Konto kan ikke skjules"
+  },
+  "nav_reset": {
+    "message": "Tilbakestill menyen"
+  },
+  "nav_hideAnyway": {
+    "message": "Skjul likevel"
+  },
+  "nav_cancel": {
+    "message": "Avbryt"
+  },
+  "nav_hideWarning": {
+    "message": "Plus forsvinner fra menyen. Du får innstillingene tilbake med $1 → «meny» i paletten."
+  },
+  "acct_cjSettings": {
+    "message": "Plus"
+  },
+  "home_unread": {
+    "message": "$1 ulest"
+  },
+  "home_handedIn": {
+    "message": "Levert"
+  },
+  "mod_sidebar": {
+    "message": "Emnemeny"
+  },
+  "mod_sidebar_desc": {
+    "message": "Gjør Canvas-menyen til et bredt sidepanel med navnene ved siden av ikonene og emnene dine under. Åpne et emne der for å se menyen dets: Moduler, Oppgaver, Filer og så videre. Canvas-knappen nederst i menyen gjør den fortsatt smal."
+  },
+  "mod_sidebar_short": {
+    "message": "Bred meny med navn og emnene dine."
+  },
+  "sidebar_expand": {
+    "message": "Vis menyen for $1"
+  },
+  "sidebar_error": {
+    "message": "Kunne ikke hente."
+  },
+  "home_dueCount": {
+    "message": "$1 frister"
+  },
+  "home_doneCount": {
+    "message": "$1 levert"
+  },
+  "home_hide": {
+    "message": "Skjul $1 fra Hjem+"
+  },
+  "home_hiddenCount": {
+    "message": "Skjulte emner: $1"
+  },
+  "home_show": {
+    "message": "Vis"
+  },
+  "home_showLess": {
+    "message": "Skjul lista"
+  },
+  "home_unhide": {
+    "message": "Vis $1 i Hjem+ igjen"
+  },
+  "home_noMoreToday": {
+    "message": "Ingen flere forelesninger i dag."
+  },
+  "home_noneToday": {
+    "message": "Ingen forelesninger i dag."
+  },
+  "sidebar_pages": {
+    "message": "Sider"
+  },
+  "sidebar_customise": {
+    "message": "Tilpass menyen i Plus"
+  },
+  "sidebar_allCourses": {
+    "message": "Alle emner"
+  },
+  "home_move": {
+    "message": "Flytt $1"
+  },
+  "home_moveHint": {
+    "message": "dra, eller bruk piltastene"
+  },
+  "home_resetOrder": {
+    "message": "Tilbakestill rekkefølgen"
+  },
+  "home_hideAsk": {
+    "message": "Skjule $1 fra Hjem+?"
+  },
+  "home_hideHint": {
+    "message": "Du kan hente det fram igjen under kortene."
+  },
+  "home_hideYes": {
+    "message": "Skjul"
+  },
+  "sidebar_edit": {
+    "message": "Tilpass"
+  },
+  "sidebar_editHidden": {
+    "message": "Tilpass ($1 skjult)"
+  },
+  "sidebar_pickCourses": {
+    "message": "Velg emner"
+  },
+  "sidebar_done": {
+    "message": "Ferdig"
+  }
+}

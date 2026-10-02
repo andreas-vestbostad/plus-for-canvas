@@ -1,0 +1,3 @@
+/* Keep Canvas' own menu out of sight until navlayout.js has added our items and put them in
+   the user's order, so the menu does not jump on every page load. navearly.js sets the class. */
+html.cj-nav-pending #menu { visibility: hidden !important; }

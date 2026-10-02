@@ -1,0 +1,4 @@
+/* Home+ ("/#cj-home"): hide Canvas' own dashboard before it paints. early.js sets
+   the class; home.js draws the page in its place. */
+html.cj-home #dashboard,
+html.cj-home #right-side-wrapper { display: none !important; }

@@ -1,0 +1,36 @@
+/* Course sidebar: Canvas' menu as a wide sidebar, icons with their names beside them and the
+   courses below (sidebar.js). Account sits on top; under it a "Pages" heading folds Canvas'
+   items away (html.cj-sidebar-pages-closed). Only while the menu is expanded (Canvas' own
+   toggle at the bottom of the menu still shrinks it to icons) and only where Canvas shows the
+   menu on the side. early.js sets the classes; sidebar.js takes them off when turned off. */
+@media (min-width: 768px) {
+  html.cj-sidebar-on { --cj-sidebar-width: 12.5rem; }
+  html.cj-sidebar-on body.primary-nav-expanded .ic-app-header { width: var(--cj-sidebar-width); }
+  html.cj-sidebar-on body.primary-nav-expanded:not(.no-headers):not(.content-only):not(.hide-global-nav) .ic-Layout-wrapper,
+  html.cj-sidebar-on body.primary-nav-expanded:not(.hide-global-nav) .tray-with-space-for-global-nav { margin-left: var(--cj-sidebar-width); }
+  /* Canvas' own trays (Courses, Account…) are 28rem wide with room for its 84px menu inside;
+     keep the same room for their content next to the wider menu. */
+  html.cj-sidebar-on body.primary-nav-expanded #nav-tray-portal span[class*="-tray"]:has(.tray-with-space-for-global-nav) {
+    width: calc(28rem - 84px + var(--cj-sidebar-width)) !important; max-width: 100vw !important; }
+
+  /* Account on top, then room for the "Pages" heading (sidebar.js puts it there), then the
+     items. Placed here so nothing moves when the heading arrives. */
+  html.cj-sidebar-on body.primary-nav-expanded .ic-app-header__main-navigation { position: relative; padding-top: 92px; }
+  html.cj-sidebar-on body.primary-nav-expanded #menu > li:has(> #global_nav_profile_link) { position: absolute; top: 8px; left: 0; right: 0; }
+  /* !important: UiB shows its own "Hjelp" with an inline display, which would win otherwise. */
+  html.cj-sidebar-on.cj-sidebar-pages-closed body.primary-nav-expanded #menu > li:not(:has(> #global_nav_profile_link)) { display: none !important; }
+
+  /* Items as rounded rows; Canvas' current item keeps its white background. */
+  html.cj-sidebar-on body.primary-nav-expanded #menu > li { margin: 1px 8px; }
+  html.cj-sidebar-on body.primary-nav-expanded .ic-app-header__menu-list-link {
+    display: flex; align-items: center; gap: 12px; padding: 5px 10px; border-radius: 8px; text-align: left; }
+  html.cj-sidebar-on body.primary-nav-expanded #menu > li:not(.ic-app-header__menu-list-item--active) > .ic-app-header__menu-list-link:hover { background: rgba(255, 255, 255, .1); }
+  /* The account picture at icon size, so "Account" lines up with the rest. */
+  html.cj-sidebar-on body.primary-nav-expanded #global_nav_profile_link .ic-avatar { width: 26px; height: 26px; margin: 0; border-width: 1px; }
+  html.cj-sidebar-on body.primary-nav-expanded #global_nav_profile_link .ic-avatar img { width: 100%; height: 100%; }
+  /* Courses: the sidebar lists them (and links to all of them), so Canvas' Courses tray is left out. */
+  html.cj-sidebar-on body.primary-nav-expanded #menu > li:has(> #global_nav_courses_link) { display: none; }
+  html.cj-sidebar-on body.primary-nav-expanded .ic-app-header__menu-list-link .menu-item-icon-container { flex: none; width: 26px; margin: 0; }
+  html.cj-sidebar-on body.primary-nav-expanded .ic-app-header__menu-list-link .menu-item__text { flex: 1; min-width: 0; margin: 0; font-size: .875rem; text-align: left; }
+  html.cj-sidebar-on body.primary-nav-expanded .ic-app-header__menu-list-link .menu-item__badge { right: -8px; left: auto; }
+}
