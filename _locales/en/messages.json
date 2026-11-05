@@ -338,6 +338,9 @@
   "dl_graded": {
     "message": "graded"
   },
+  "dl_gradedHidden": {
+    "message": "graded, not posted yet"
+  },
   "dl_excused": {
     "message": "excused"
   },

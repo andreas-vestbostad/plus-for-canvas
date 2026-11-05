@@ -338,6 +338,9 @@
   "dl_graded": {
     "message": "vurdert"
   },
+  "dl_gradedHidden": {
+    "message": "vurdert, ikke publisert ennå"
+  },
   "dl_excused": {
     "message": "fritatt"
   },

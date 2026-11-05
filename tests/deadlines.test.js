@@ -136,6 +136,8 @@ test("describe: status for late and finished work, countdown otherwise", () => {
   assert.equal(D.describe(d("open", 1), NOW, t, "en-GB"), "tomorrow 23:59");
   const g = { status: "graded", due: Date.parse(at(-5)), gradedAt: Date.parse(at(-1, "12:00")), feedback: true };
   assert.equal(D.describe(g, NOW, t, "en-GB"), "graded yesterday 12:00 · new comment");
+  const hidden = { status: "graded", due: Date.parse(at(-5)), gradedAt: null };
+  assert.equal(D.describe(hidden, NOW, t, "en-GB"), "dl_gradedHidden", "graded but not posted says so");
   const h = { status: "submitted", due: Date.parse(at(1)), submittedAt: Date.parse(at(-1, "14:32")) };
   assert.equal(D.describe(h, NOW, t, "en-GB"), "handed in yesterday 14:32");
 });
