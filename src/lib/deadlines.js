@@ -138,7 +138,9 @@
     if (needsYou(d)) return `${t("dl_" + d.status)} · ${when}`;
     if (!isDone(d)) return when;
     const at = d.status === "graded" ? d.gradedAt : d.status === "submitted" ? d.submittedAt : null;
-    const text = at ? `${t("dl_" + d.status)} ${relative(at, now, locale)}` : t("dl_" + d.status);
+    // Graded but not posted (or posted and hidden again): Canvas says graded, but you cannot see it yet.
+    const hidden = d.status === "graded" && !d.gradedAt;
+    const text = at ? `${t("dl_" + d.status)} ${relative(at, now, locale)}` : t(hidden ? "dl_gradedHidden" : "dl_" + d.status);
     return d.feedback ? `${text} · ${t("dl_feedback")}` : text;
   }
 
